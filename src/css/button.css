@@ -1,0 +1,109 @@
+.home-about-social {
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+}
+
+.home-about-social-links {
+    justify-content: center;
+    padding-top: 15px;
+    display: inline-block;
+    position: relative;
+    padding-inline-start: 0;
+}
+
+.home-platforms-social-links {
+    justify-content: center;
+    padding-top: 10px;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    padding-inline-start: 1;
+}
+
+.home-platforms-icons {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 6px;
+    justify-content: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    background: rgb(180, 12, 180);
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.home-platforms-icons::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgb(180, 12, 180);
+    transition: 0.1s;
+    transform: scale(0.1);
+    z-index: -20;
+}
+
+.home-platforms-icons:hover {
+    transform: scale(1.4);
+    box-shadow: 0 0 1px #fff;
+}
+
+.home-platforms-icons:hover {
+    color: black;
+    background-color: rgb(180, 12, 180);
+    box-shadow: 0 0 40px #87209e;
+    text-shadow: 0 0 2px #87209e;
+}
+
+.home-social-icons {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 43px;
+    background: rgba(255, 255, 255, 0.972);
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.home-social-icons::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #68187a;
+    transition: 0.1s;
+    transform: scale(0.1);
+    z-index: -20;
+}
+
+.home-social-icons:hover::before {
+    transform: scale(1.4);
+    box-shadow: 0 0 15px #801f95;
+}
+
+.home-social-icons:hover {
+    color: #87209e;
+    box-shadow: 0 0 5px #87209e;
+    text-shadow: 0 0 2px #87209e;
+}
+
+.social-icons {
+    display: inline-block;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.icon-colour {
+    color: white;
+}
