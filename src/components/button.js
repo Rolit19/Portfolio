@@ -1,8 +1,8 @@
 import React from 'react'
 import '../css/button.css'
 import { Icon } from "@iconify/react";
-import {Typography,Avatar,Grid,Box} from '@material-ui/core'
-import {makeStyles, responsiveFontSizes} from '@material-ui/core/styles'
+import {Box} from '@material-ui/core'
+import {makeStyles} from '@material-ui/core/styles'
 import codeforcesIcon from "@iconify-icons/simple-icons/codeforces";
 import codechefIcon from "@iconify-icons/simple-icons/codechef";
 import githubFill from "@iconify-icons/akar-icons/github-fill";

@@ -4,7 +4,7 @@ import {Box,Grid,Card,CardActionArea,CardActions,CardContent,CardMedia,Button,Ty
 import {makeStyles} from '@material-ui/core/styles'
 import project1 from '../images/html-css-javascript-lg.jpg'
 import back from '../back.jpg'
-import Particles from './particles'
+import TechSkills1 from './TechSkills'
 
 
 const useStyles=makeStyles({
@@ -70,6 +70,7 @@ const Portfolio = ()=> {
                     </Grid> 
                 </Grid>
             </Box>
+            <TechSkills1/>
             </>
         </div>
     )
