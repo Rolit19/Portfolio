@@ -13,7 +13,7 @@ const TechSkills = () => {
         return (
             <>
             <h1 className="txt">Technologies Learnt</h1>
-            <div className="container">
+            <div className="container" style={{display: 'flex', justifyContent: 'center'}}>
                 <img className="img" src={img4} alt="reactimg"/>
                 <img className="img" src={img3} alt="reactimg"/>
                 <img className="img" src={img2} alt="reactimg"/>
@@ -21,7 +21,7 @@ const TechSkills = () => {
                 <img className="img" src={img1} alt="reactimg"/>
             </div>
             <h1 className="txt">Languages Learnt</h1>
-            <div className="container">
+            <div className="container" style={{display: 'flex', justifyContent: 'center'}}>
                 <img className="img" src={img6} alt="reactimg"/>
                 <img className="img" src={img7} alt="reactimg"/>
                 <img className="img" src={img8} alt="reactimg"/>
