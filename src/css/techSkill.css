@@ -12,11 +12,85 @@
     border-radius: 10px;
 }
 
+.img1 {
+    height: 350px;
+    width: 380px;
+    border-radius: 30px;
+}
+
 .txt {
     font-family: 'Roboto Slab', serif;
     text-align: center;
     color: white;
     font-size: 2.5rem;
+}
+
+.txt1 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.addform {
+    height: 420px;
+    border-radius: 40px;
+    width: 450px;
+    color: white;
+    padding: 2.5rem;
+    border: solid 0.2rem rgb(71, 37, 69);
+    background-image: linear-gradient(315deg, black 0%, rgb(71, 37, 69) 74%) !important;
+}
+
+.container1 {
+    margin-top: 100px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 100px;
+    border: black 10px;
+    column-gap: 3rem;
+}
+
+.addinput {
+    width: 370px;
+    height: 2rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    border: none;
+    outline: none;
+}
+
+.addinput1 {
+    width: 370px;
+    height: 4.5rem;
+    font-size: 1.2rem;
+    padding-left: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+
+.Profile .formbutton {
+    background-color: rgb(35, 189, 35);
+    color: white;
+    font-size: 2rem;
+    height: 3.5rem;
+    width: 180px;
+    background-color: #20bf55 !important;
+    background-image: linear-gradient(315deg, black 0%, rgb(71, 37, 69) 74%) !important;
+    padding: 2px 40px !important;
+    border-radius: 200px !important;
+    border: solid 0.2rem white;
+    margin-top: 20px;
+}
+
+.txt1 {
+    font-size: 1.2rem;
 }
 
 @media (max-width: 400px) {
@@ -31,5 +105,48 @@
         margin-bottom: 1rem;
         width: 80px;
         border-radius: 8px;
+    }
+
+    .container1 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .addinput {
+        width: 250px;
+        height: 2rem;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding-left: 12px;
+        border: none;
+        outline: none;
+    }
+
+    .addinput1 {
+        width: 250px;
+        height: 4.5rem;
+        font-size: 1.2rem;
+        padding-left: 12px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+
+    .addform {
+        height: 420px;
+        border-radius: 40px;
+        width: 320px;
+        color: white;
+        padding: 2.5rem;
+        border: solid 0.2rem rgb(71, 37, 69);
+        background-image: linear-gradient(315deg, black 0%, rgb(71, 37, 69) 74%) !important;
+    }
+
+    .img1 {
+        height: 320px;
+        width: 320px;
+        border-radius: 30px;
+        margin-bottom: 30px;
     }
 }

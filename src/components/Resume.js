@@ -130,7 +130,7 @@ const Resume = () => {
                         Currently Working On
                     </Typography>
                     <Typography variant="subtitle1" aligh="center" style={{color:"tan"}}>
-                        Latest Tecnologies Which include HTML,CSS+Bootstrap,JavaScript,ReactJS.
+                        Latest Tecnologies Which include HTML,CSS+Bootstrap,<br/>JavaScript,ReactJS.
                     </Typography>
                 </Box>
 
