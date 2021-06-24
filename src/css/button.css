@@ -31,6 +31,7 @@
     justify-content: center;
     font-size: 1.2rem;
     line-height: 2rem;
+    box-shadow: 0 0 5px #ffffff;
     background-image: linear-gradient(315deg, rgb(74, 49, 77) 0%, rgb(100, 46, 97) 74%) !important;
     border-radius: 50%;
     transition: 0.2s;

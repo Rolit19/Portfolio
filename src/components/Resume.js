@@ -2,12 +2,14 @@ import React from 'react'
 import {makeStyles} from '@material-ui/core/styles'
 import {Typography,Box} from '@material-ui/core'
 import Navbar from './Navbar'
-import back from '../back.jpg'
+import back from '../images/back.jpg'
 
 const useStyles=makeStyles(theme=>({
     mainContainer:{
         background:back,
-        opacity:"100%"
+        opacity:"100%",
+        width:"auto",
+        height:"auto"
     },
     timeline:{
         position:"relative",

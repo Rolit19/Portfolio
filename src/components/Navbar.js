@@ -24,6 +24,11 @@ const useStyles =makeStyles(theme=>({
     },
     listItem:{
         color:"#e6e6fa"
+    },
+    title:{
+        color:"#9932cc",
+        fontSize:"2.5rem",
+        fontFamily: 'Roboto'
     }
 }));
 
@@ -88,7 +93,7 @@ const Navbar = () => {
                     <IconButton  onClick={toggleSlider("right",true)}>
                         <ArrowBack style={{color: "#e6e6fa"}}/>
                     </IconButton>
-                    <Typography style={{color:"#d8bfd8"}}>Rolit Trivedi</Typography>
+                    <Typography className={classes.title} style={{color:"#d8bfd8"}}>Rolit Trivedi</Typography>
                     <MobileRightMenuSlider anchor="right"  open={state.right} onClose={toggleSlider("right",false)}>
                         {sideList("right")}
                     </MobileRightMenuSlider>

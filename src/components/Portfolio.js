@@ -3,14 +3,13 @@ import Navbar from './Navbar'
 import {Box,Grid,Card,CardActionArea,CardActions,CardContent,CardMedia,Button,Typography} from '@material-ui/core'
 import {makeStyles} from '@material-ui/core/styles'
 import project1 from '../images/html-css-javascript-lg.jpg'
-import back from '../back.jpg'
+import back from '../images/back.jpg'
 import TechSkills1 from './TechSkills'
 
 
 const useStyles=makeStyles({
     mainContainer:{
         background:back,
-        height:"100%"
     },
     cardContainer:{
         maxWidth:345,
@@ -25,7 +24,7 @@ const Portfolio = ()=> {
     return (
         <div>
             <>
-            <Box component="div" className={classes.mainContainer}>
+            <Box component="div" className={classes.mainContainer} style={{height:'auto',width:'100%'}}>
                 <Navbar/>
                 <Grid container justify="center">
                     {/* Project 1 */}

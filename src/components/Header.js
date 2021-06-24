@@ -15,17 +15,21 @@ const useStyles = makeStyles(theme =>({
     },
     title:{
         color:"#9932cc",
-        fontSize:"2.5rem",
+        fontSize:"3rem",
+        fontWeight:"bold",
+        fontFamily: 'Big Shoulders Stencil Display'
     },
     subtitle:{
         color:"white",
-        fontSize:"1.5rem",
-        marginBottom:"3rem"
+        fontSize:"2.5rem",
+        marginBottom:"3rem",
+        fontWeight:"bold",
+        fontFamily: 'Big Shoulders Stencil Display',
     },
     typedcontainer:{
         position:"absolute",
-        top:"50%",
-        left:"50%",
+        top:"60%",
+        left:"49%",
         transform:"translate(-50%,-50%)",
         width:"100vw",
         textAlign:"center",
@@ -39,8 +43,11 @@ const Header = () => {
     const classes=useStyles()
     return (
         <>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap');
+        </style>
         <Box className={classes.typedcontainer}>
-            <Grid container justify="center">
+            <Grid container justify="center" >
                 <Avatar className={classes.avatar} src={avatar} alt="Rolit Trivedi" />
             </Grid>
             <Typography className={classes.title}>
@@ -51,9 +58,9 @@ const Header = () => {
             </Typography>
             <Typography className={classes.subtitle}>
             <Typed
-                    strings={['Web Devolpment', 'Competative Programing']}
+                    strings={['Web Devolpment', 'Competative Programing','Open Source Contributor']}
                     typeSpeed={40}
-                    backSpeed={60}
+                    backSpeed={50}
                     loop
                 />
             </Typography>
