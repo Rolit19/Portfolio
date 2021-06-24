@@ -4,7 +4,10 @@ import {Link} from 'react-router-dom';
 import {AppBar,Toolbar,ListItem,IconButton,ListItemText,Avatar,Divider,List,Typography,Box, ListItemIcon} from '@material-ui/core'
 import {ArrowBack,AssignmentInd,Home,Apps,ContactMail} from '@material-ui/icons'
 import MobileRightMenuSlider from '@material-ui/core/Drawer'
+import StarTwoToneIcon from '@material-ui/icons/StarTwoTone';
 import avatar from '../avatar1.png'
+import '../css/button.css'
+import '../css/techSkill.css'
 
 //CSS Styles
 const useStyles =makeStyles(theme=>({  
@@ -81,7 +84,7 @@ const Navbar = () => {
         <>
         <Box component="nav">
             <AppBar position="static" style={{background: "black"}}>
-                <Toolbar style={{background:"#301b3f"}}>
+                <Toolbar style={{background:"#301b3f",display: 'flex'}}>
                     <IconButton  onClick={toggleSlider("right",true)}>
                         <ArrowBack style={{color: "#e6e6fa"}}/>
                     </IconButton>
@@ -89,6 +92,7 @@ const Navbar = () => {
                     <MobileRightMenuSlider anchor="right"  open={state.right} onClose={toggleSlider("right",false)}>
                         {sideList("right")}
                     </MobileRightMenuSlider>
+                    <a href="https://github.com/Rolit19/Portfolio" target="_blank" rel="noreferrer" style={{ marginLeft: "auto" }}><button className="navbutton"><StarTwoToneIcon/></button></a>
                 </Toolbar>
             </AppBar>
         </Box>
