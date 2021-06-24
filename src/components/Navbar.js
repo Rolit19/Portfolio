@@ -1,11 +1,10 @@
 import React,{useState} from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import {Link} from 'react-router-dom';
-import {AppBar,Toolbar,ListItem,IconButton,ListItemText,Avatar,Divider,List,Typography,Box, ListItemIcon, Slide, Slider} from '@material-ui/core'
+import {AppBar,Toolbar,ListItem,IconButton,ListItemText,Avatar,Divider,List,Typography,Box, ListItemIcon} from '@material-ui/core'
 import {ArrowBack,AssignmentInd,Home,Apps,ContactMail} from '@material-ui/icons'
 import MobileRightMenuSlider from '@material-ui/core/Drawer'
 import avatar from '../avatar1.png'
-import { isCompositeComponent } from 'react-dom/test-utils';
 
 //CSS Styles
 const useStyles =makeStyles(theme=>({  

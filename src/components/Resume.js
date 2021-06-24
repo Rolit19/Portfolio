@@ -2,7 +2,6 @@ import React from 'react'
 import {makeStyles} from '@material-ui/core/styles'
 import {Typography,Box} from '@material-ui/core'
 import Navbar from './Navbar'
-import Particles from './particles'
 import back from '../back.jpg'
 
 const useStyles=makeStyles(theme=>({

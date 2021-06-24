@@ -2,7 +2,6 @@ import React from 'react'
 import '../css/button.css'
 import { Icon } from "@iconify/react";
 import {Box} from '@material-ui/core'
-import {makeStyles} from '@material-ui/core/styles'
 import codeforcesIcon from "@iconify-icons/simple-icons/codeforces";
 import codechefIcon from "@iconify-icons/simple-icons/codechef";
 import githubFill from "@iconify-icons/akar-icons/github-fill";
@@ -12,21 +11,9 @@ import leetcodeIcon from "@iconify-icons/cib/leetcode";
 import hackerrankIcon from "@iconify-icons/cib/hackerrank";
 
 
-const useStyles = makeStyles(theme =>({
-    typedcontainer:{
-        position:"absolute",
-        top:"50%",
-        left:"50%",
-        transform:"translate(-50%,-50%)",
-        width:"100vw",
-        textAlign:"center",
-        zIndex:1
-    }
-}));
 
 
 const Platforms = () => {
-    const classes=useStyles()
     return (
         <>
         <Box>

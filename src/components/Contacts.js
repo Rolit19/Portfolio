@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Particles from 'react-particles-js'
 import phonelogo from '../contactimg.jpeg'
 import Form1 from './Form.js'
 import '../css/techSkill.css'

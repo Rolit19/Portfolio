@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css';
 import {Typography,Avatar,Grid,Box} from '@material-ui/core'
-import {makeStyles, responsiveFontSizes} from '@material-ui/core/styles'
+import {makeStyles} from '@material-ui/core/styles'
 import avatar from '../avatar.jpg'
 import Typed from 'react-typed'
 import Platforms from './button';
