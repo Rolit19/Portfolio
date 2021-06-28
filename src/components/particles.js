@@ -23,11 +23,11 @@ const Home = () => {
                         value:100,
                         density:{
                             enable:true,
-                            value_area:900
+                            value_area:1000
                         }
                     },
                     shape:{
-                        type:"circle",
+                        type:"square",
                         strole:{
                             width:1,
                             color:'tomato'
