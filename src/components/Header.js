@@ -28,7 +28,7 @@ const useStyles = makeStyles(theme =>({
     },
     typedcontainer:{
         position:"absolute",
-        top:"60%",
+        top:"400px",
         left:"49%",
         transform:"translate(-50%,-50%)",
         width:"100vw",
@@ -46,7 +46,7 @@ const Header = () => {
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap');
         </style>
-        <Box className={classes.typedcontainer}>
+        <div className={classes.typedcontainer}>
             <Grid container justify="center" >
                 <Avatar className={classes.avatar} src={avatar} alt="Rolit Trivedi" />
             </Grid>
@@ -65,8 +65,7 @@ const Header = () => {
                 />
             </Typography>
             <Platforms />
-        </Box>
-                    
+        </div>
         </>
     )
 }
