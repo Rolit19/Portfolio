@@ -5,9 +5,10 @@ import {AppBar,Toolbar,ListItem,IconButton,ListItemText,Avatar,Divider,List,Typo
 import {ArrowBack,AssignmentInd,Home,Apps,ContactMail} from '@material-ui/icons'
 import MobileRightMenuSlider from '@material-ui/core/Drawer'
 import StarTwoToneIcon from '@material-ui/icons/StarTwoTone';
-import avatar from '../avatar1.png'
+import avatar from '../images/rolitcardimg3.jpeg'
 import '../css/button.css'
 import '../css/techSkill.css'
+import Social from './socialmedia.js'
 
 //CSS Styles
 const useStyles =makeStyles(theme=>({  
@@ -19,8 +20,8 @@ const useStyles =makeStyles(theme=>({
     avatar:{
         display: "block",
         margin: "0.5rem auto",
-        width:theme.spacing(13),
-        height:theme.spacing(13)
+        width:theme.spacing(10),
+        height:theme.spacing(10)
     },
     listItem:{
         color:"#e6e6fa"
@@ -66,6 +67,7 @@ const Navbar = () => {
 
     const classes=useStyles();
     const sideList=Slider =>(
+        <>
         <Box 
         className={classes.menuSliderContainer} 
         component="div"
@@ -82,8 +84,10 @@ const Navbar = () => {
                     <ListItemText className={classes.listItem} primary={lsItem.listText}/>
                 </ListItem>
                 ))}
-            </List>
+            </List> 
         </Box>
+        <Social/>
+        </>
     )
     return (
         <>

@@ -125,3 +125,8 @@
     color: purple;
     font-size: 10px;
 }
+
+.sliderdiv {
+    background-image: linear-gradient(315deg, rgb(74, 49, 77) 0%, rgb(100, 46, 97) 74%) !important;
+    bottom: 0px !important;
+}
